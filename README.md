@@ -23,9 +23,9 @@ This repository is intended to support the **022/023 Computer Science cohort** a
 
 ```
 COS222-Answers/
-├── answers/
-│   ├── Exercise1.java
-│   ├── Exercise2.java
+├── Module_1/
+│   ├── model_1.java
+│   ├── model_2.java
 │   └── ...
 ├── README.md
 ```
@@ -39,7 +39,7 @@ Follow these steps to run the code locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Faculty-of-Computing/COS222-Answers.git
+git clone https://github.com/Faculty-of-Computing/COS222-Manual-Excercise.git
 ```
 
 ### 2. Navigate into the Project Folder
