@@ -1,3 +1,5 @@
+package Module_1;
+
 public class Lab_1 {
     public static void main(String[] args) {
         int age = 25;

@@ -1,3 +1,5 @@
+package Module_1;
+
 public class model_3 {
     public static void main(String[] args) {
         double p1 = 0.45;

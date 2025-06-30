@@ -1,3 +1,5 @@
+package Module_1;
+
 public class model_2 {
     public static void main(String[] args) {
         double w = -0.56;
