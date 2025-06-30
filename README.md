@@ -1,5 +1,9 @@
 # COS222 Java Practice Answers (022/023 Series)
 
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="Java Logo" height="100">
+</p>
+
 📚 A curated set of Java practice answers for the **COS222 Manual Exercises** based on the [Faculty of Computing Official Exercises](https://github.com/Faculty-of-Computing/COS222-Manual-Excercise).
 
 This repository is intended to support the **022/023 Computer Science cohort** at the University, by offering a community-driven way to learn, contribute, and practice core Java programming.
@@ -8,10 +12,10 @@ This repository is intended to support the **022/023 Computer Science cohort** a
 
 ## ✨ Features
 
-- ✅ Clean and working Java answers to COS222 exercises
-- 🧠 Beginner-friendly code with helpful comments
-- 💻 Easy to run locally using any Java IDE or CLI
-- 🤝 Open for contributions
+- ✅ Clean and working Java answers to COS222 exercises  
+- 🧠 Beginner-friendly code with helpful comments  
+- 💻 Easy to run locally using any Java IDE or CLI  
+- 🤝 Open for contributions  
 
 ---
 
