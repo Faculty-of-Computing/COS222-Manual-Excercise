@@ -130,7 +130,8 @@ We welcome your help in expanding and improving this resource! Here's how to con
 
 This project is maintained by the **022/023 Software Director** and fellow contributors from the Computer Science department.
 
-If you'd like to help maintain or organize this repo better, feel free to reach out via GitHub.
+If you'd like to help maintain or organize this repo better, feel free to reach out via GitHub [Gideonjon](https://github.com/Gideonjon)
+
 
 ---
 
