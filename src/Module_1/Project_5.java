@@ -1,6 +1,6 @@
 package Module_1;
 
-public class model_1 {
+public class Project_5 {
     public static void main(String[] args) {
 
         // Given Values
@@ -13,7 +13,7 @@ public class model_1 {
         double inner = (n/2.0)+ 2*v*Q-Math.abs(n/4);
         double answer = lamba *Math.sqrt(inner);
 
-        System.out.printf("model 1 is: " + answer);
+        System.out.printf("project 5 is: " + answer);
 
 
 
