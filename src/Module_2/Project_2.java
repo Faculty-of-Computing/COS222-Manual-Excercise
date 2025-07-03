@@ -4,13 +4,14 @@ import java.util.Scanner;
 
 public class Project_2 {
 
-    // advise method now takes passed count and total students
     public static void advise(int passedCount, int totalStudents) {
         if (passedCount > (totalStudents * 60 / 100)) {
             System.out.println("Increase fees");
         } else {
             System.out.println("Don't increase fees");
         }
+
+
     }
 
     public static void main(String[] args) {
@@ -28,7 +29,7 @@ public class Project_2 {
                 }
             } else {
                 System.out.println("Invalid input. Please enter a number.");
-                scan.next(); // clear invalid input
+                scan.next();
             }
         }
 
@@ -46,7 +47,7 @@ public class Project_2 {
                     break;
                 } else {
                     System.out.println("Invalid score. Please enter a number.");
-                    scan.next(); // clear invalid input
+                    scan.next();
                 }
             }
 
@@ -69,8 +70,8 @@ public class Project_2 {
             System.out.print(failed[i] + " ");
         }
 
-        System.out.println(); // line break
-        advise(passedCount, studentsno); // call the advise method
+        System.out.println();
+        advise(passedCount, studentsno);
         scan.close();
     }
 }
