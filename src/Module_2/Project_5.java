@@ -5,7 +5,7 @@ public class Project_5{
         
         int n = 0;
         int i;
-        ;
+        
         for (i = 1; i<20; i++){
             if(natsum + i > 110){
                 break;
