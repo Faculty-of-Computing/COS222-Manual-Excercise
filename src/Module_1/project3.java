@@ -1,6 +1,6 @@
 package Module_1;
 
-public class Project_3 {
+public class project3 {
 
     public static void main(String[] args) {
     double side_a = 20; //value given

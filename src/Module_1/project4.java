@@ -3,7 +3,7 @@ package Module_1;
 import java.util.Scanner; 
 import java.time.Year;    
 
-public class Project_4{
+public class project4 {
     public static void main(String[] args){
         String name;
         int year;

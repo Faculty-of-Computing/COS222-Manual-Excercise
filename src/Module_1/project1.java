@@ -1,7 +1,8 @@
+package Module_1;
 
-public class Project_1{
-    
-    public static void main(String[] args){
+public class project1 {
+
+    public static void main(String[] args) {
         System.out.println("Size of byte: " + (Byte.SIZE) + " bits");
         System.out.println("Size of short: " + (Short.SIZE) + " bits");
         System.out.println("Size of int: " + Integer.SIZE + " bits");
@@ -13,6 +14,6 @@ public class Project_1{
         System.out.println("Size of char: " + Character.SIZE + " bits");
         System.out.println("Size of boolean: non-numeric ");
     }
- }
+}
 
     

@@ -1,6 +1,6 @@
 package Module_1;
 
-public class Project_5 {
+public class project5 {
     public static void main(String[] args) {
 
         // Given Values

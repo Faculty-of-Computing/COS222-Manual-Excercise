@@ -1,3 +1,5 @@
+package Module_2;
+
 import java.util.Scanner;
 
 public class Project_1 {
@@ -32,9 +34,9 @@ public class Project_1 {
         }
 
         String[] reg_nums = new String[studnum];
-        double[] testscore = new double[studnum];
-        double[] examscore = new double[studnum];
-        double[] totalscore = new double[studnum];
+        double[] test_score = new double[studnum];
+        double[] exam_score = new double[studnum];
+        double[] total_score = new double[studnum];
         String[] grade = new String[studnum];
 
         for (int i = 0; i < studnum; i++) {
@@ -44,8 +46,8 @@ public class Project_1 {
             while (true) {
                 System.out.println("Input test score:");
                 if (input.hasNextDouble()) {
-                    testscore[i] = input.nextDouble();
-                    if (testscore[i] >= 0 && testscore[i] <= 30) {
+                    test_score[i] = input.nextDouble();
+                    if (test_score[i] >= 0 && test_score[i] <= 30) {
                         break;
                     } else {
                         System.out.println("Invalid! Min and max values allowed are 0 and 30 respectively");
@@ -59,9 +61,9 @@ public class Project_1 {
             while (true) {
                 System.out.println("Input exams score:");
                 if (input.hasNextDouble()) {
-                    examscore[i] = input.nextDouble();
+                    exam_score[i] = input.nextDouble();
                     input.nextLine();
-                    if (examscore[i] >= 0 && examscore[i] <= 70) {
+                    if (exam_score[i] >= 0 && exam_score[i] <= 70) {
                         break;
                     } else {
                         System.out.println("Invalid! Min and max values allowed are 0 and 100 respectively");
@@ -72,15 +74,15 @@ public class Project_1 {
                 }
             }
 
-            totalscore[i] = testscore[i] + examscore[i];
-            grade[i] = Grades(totalscore[i]);
+            total_score[i] = test_score[i] + exam_score[i];
+            grade[i] = Grades(total_score[i]);
         }
 
         System.out.println("\n--- Student Report ---");
         System.out.printf("%-15s %-10s %-10s %-10s %-6s\n", "Reg Number", "Test", "Exam", "Total", "Grade");
         for (int i = 0; i < studnum; i++) {
             System.out.printf("%-15s %-10.2f %-10.2f %-10.2f %-6s\n",
-                    reg_nums[i], testscore[i], examscore[i], totalscore[i], grade[i]);
+                    reg_nums[i], test_score[i], exam_score[i], total_score[i], grade[i]);
         }
 
         input.close();
