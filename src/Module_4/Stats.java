@@ -31,6 +31,7 @@ public class Stats {
     }
 
     public static void main(String[] args) {
+        //Put random numbers of arrays here
         int[] numbers = {-6,-7,-6, 20};
 
         System.out.println("Array Sum: " + getSum(numbers));
