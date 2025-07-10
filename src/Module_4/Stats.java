@@ -31,7 +31,7 @@ public class Stats {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {5, 12, 3, 9, 21, 7};
+        int[] numbers = {-6,-7,-6, 20};
 
         System.out.println("Array Sum: " + getSum(numbers));
         System.out.println("Maximum Value: " + getMax(numbers));
